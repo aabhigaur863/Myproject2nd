@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="WebElementOper.elementOper.HandleMouseOver">
+        <methods>
+          <include name="dragAndDropBYEx"/>
+        </methods>
+      </class> <!-- WebElementOper.elementOper.HandleMouseOver -->
+      <class name="WebElementOper.elementOper.ScrollTest">
+        <methods>
+          <include name="scrollPageTest"/>
+        </methods>
+      </class> <!-- WebElementOper.elementOper.ScrollTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
